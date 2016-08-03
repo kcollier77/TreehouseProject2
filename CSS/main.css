@@ -79,6 +79,14 @@ p {
     margin-top: 5px;
 }
 
+.contact-area  {
+	text-align: center;
+}
+
+.contact-area li {
+	list-style: none;
+}
+
 /**********************************
 HEADING
 ***********************************/
@@ -168,10 +176,9 @@ footer {
   color: #ccc;
 }
 
-
-
-
-
+.footer-nav {
+	visibility: hidden;
+}
 
 /**********************************
 COLORS
@@ -277,15 +284,23 @@ nav a.selected, nav a, aside a:hover {
     
     .contact-area{
         margin: 0;
-        padding-top 1px;
+        padding-top: 1px;
     }
 
-}
+	.footer-nav {
+		visibility: visible;
+	}
+	
+	.footer-nav li{
+		display: inline-block;
+		float: right;
+		
+	}
 
    
 
 @media (min-width: 1020px){
-        .name {
+    .name {
         display: inline-block;
         padding: 20px 0 0 20px;
     }
@@ -300,7 +315,11 @@ nav a.selected, nav a, aside a:hover {
         display: inline-block;
     }
     
-    .contact-area {
-        margin-top: 5px;
-        clear: both;
-    }
+    
+      #gallery li {
+	    width: 28.3333%;
+	}
+	
+	  #gallery li:nth-child(4n) {
+	    clear: left;
+	}
