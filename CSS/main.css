@@ -372,6 +372,7 @@ nav a.selected, nav a, aside a:hover {
 
       #gallery li {
 	    width: 28.3333%;
+        height: 50%;
 	}
 	
 	  #gallery li:nth-child(4n) {
