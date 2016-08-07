@@ -1,371 +1,317 @@
 /**********************************
-GENERAL
-***********************************/
-* {
-    box-sizing: border-box;
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}               
-
-
-body {
-  font-family: sans-serif;
-}
-
-.test {
-    display: block;
-    padding:50px;
-    max-height: 50%;
-    max-width: 50%;
-    background-color: black;
-}
-
-.name {
-    padding-bottom: 10px;
-}
-
-.main-nav {
-    margin-top: 5px;
-}
-
-.main-nav a {
-    display: block;
-    text-align: center;
-    padding: 10px 15px
-}
-
-.main-content {
-    margin: auto;
-    max-width: 100%;
-    padding: 35px 0;
+ GENERAL
+ ***********************************/
+ * {
+     box-sizing: border-box;
+ }
+ 
+ .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+           }
+ 
+ 
+ body {
+   font-family: sans-serif;
+ }
+ 
+ .test {
+     display: block;
+     padding:50px;
+     max-height: 50%;
+     max-width: 50%;
+     background-color: black;
+ }
+ 
+ .name {
+     padding-bottom: 10px;
+ }
+ 
+ .main-nav {
+     margin-top: 5px;
+ }
+ 
+ .main-nav a {
+     display: block;
+     text-align: center;
+     padding: 10px 15px
+ }
+ 
+ .main-content {
+     margin: auto;
+     max-width: 100%;
+     padding: 35px 0;
+     
+ }
+ 
+ .main-content ul {
+     list-style: none;
+ }
+ 
+ .main-content p {
+     text-align: center;
+     margin: 30px;
+ }
+ .wrapper {
+   max-width: 100%;
+   margin-bottom: 0;
+   padding: 0 5%;
+ }
+ 
+ a {
+   text-decoration: none;
+ }
+ 
+ img {
+   max-width: 90%;
+   max-height: 90%;
+ }
+ 
+ 
+ 
+  .wrapper ul {
+   list-style: none;
+ }
+ 
+ p {
+     color: #999;
+     margin-top: 5px;
+ }
+ 
+ /**********************************
+ HEADING
+ ***********************************/
+ 
+ header { 
+   margin: 0 0 30px 0;
+   padding: 5px 0 0 0;
+   width: 100%;
+   
+ }
+ 
+ #logo {
+   text-align: center;
+   margin: 0;
+ }
+ 
+ h1 {
+   font-family:  sans-serif;
+   margin: 15px 0;
+   font-weight: normal;
+   line-height: 0.8em;
+     
+ }
+ 
+ h2 {
+   text-align: center;
+   margin: -5px 0 0;
+   font-weight: normal;
+   padding-top: 50px;
+   font-size: 1em;
+ }
+ 
+ h3 {
+   margin: 0 0 1em 0;
+   text-align: center;
+   font-size: 1em;
+ }
+ .profile-photo {
+   display: block;
+   margin: auto;
+   max-width: 100%;
+ 
+ }
+ 
+ 
+ 
+ 
+ /**********************************
+ NAVIGATION
+ ***********************************/
+ 
+ nav {
+   text-align: center;
+   padding: 10px 0;
+   margin: 20px 0 0;
+ }
+ 
+ nav ul {
+   list-style: none;
+   margin: 0 10px;
+   padding: 0;
+   
+ }
+ 
+ 
+ nav a {
+   font-weight: 800;
+   padding: 15px 10px;
+ }
+ 
+ .main-nav li {
+   background-color: white; 
+   margin: 5px;
+ }
+ 
+ 
+ 
+ /**********************************
+ FOOTER
+ ***********************************/
+ 
+ footer {
+   font-size: 0.75em;
+   text-align: center;
+   clear: both;
+   padding-top: 50px;
+   color: #ccc;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ /**********************************
+ COLORS
+ ***********************************/
+ 
+ /* site body */
+ body {
+   background-color: rgb(249,249,249); 
+   margin-bottom: 5px;
+   
+ }
+ 
+ .wrapper {
+     background-color: white;
+     padding-bottom: 20px;
+     margin: 0;
+ }
+ 
+ /* links */
+ a {
+   color: #6ab47b;
+ }
+ 
+ /* nav link */
+ nav a, nav a:visited {
+   color: #000;
+ }
+ 
+ /* selected nav link */
+ nav a.selected, nav a, aside a:hover {
+   color: #32673f;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ @media (min-width: 769px){
+ 
+     .name {
+         
+         padding: 20px 10px;
+         text-align: center;
+     }
+     
+     .main-nav {
+         display: inline;
+         margin-top: 0;
+ 
+     }
+     
+     .main-nav li {
+         display: inline-block;
+     }
+     
+     .profile-photo {
+         float:right;
+         
+     }
+     
+     .about {
+         max-width: 50%;
+         padding-bottom: 70px
+     }
+     
+     .header {    
+         padding-bottom: 30px;
+     }
+     
+      #gallery {
+           margin: 0;
+           padding: 0;
+           list-style: none;
+         }
+ 
+     
+     
+     #gallery li {
+           float: left;
+           width: 45%;
+           margin: 2.5%;
+           color: #bdc3c7;
+     }
+ 
+      #gallery li a p {
+           margin: 0;
+           padding: 5%;
+           font-size: 0.75em;
+           color: black;
+           
+     }
+ 
+     .contact-info {
+         text-align: center;
+         padding: 10px;
+     }
+     
+     h2 {
+         margin-top: 0;
+         clear: both;
+     }
+     
+     .contact-area{
+         margin: 0;
+         padding-top 1px;
+     }
+ 
+ }
+ 
     
-}
-
-.main-content ul {
-    list-style: none;
-}
-
-.main-content p {
-    text-align: center;
-    margin: 30px;
-}
-.wrapper {
-  max-width: 100%;
-  margin-bottom: 0;
-  padding: 0 5%;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  max-width: 90%;
-  max-height: 90%;
-}
-
-
-
- .wrapper ul {
-  list-style: none;
-}
-
-p {
-    color: #999;
-    margin-top: 5px;
-}
-
-.contact-area  {
-	text-align: center;
-}
-
-.contact-area li {
-	list-style: none;
-}
-
-#contact {
-	margin-bottom: 15px;
-}
-
-/**********************************
-HEADING
-***********************************/
-
-header { 
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
-  
-}
-
-#logo {
-  text-align: center;
-  margin: 0 0 0 2%;
-}
-
-h1 {
-  font-family:  sans-serif;
-  margin: 15px 0;
-  font-weight: normal;
-  line-height: 0.8em;
-    
-}
-
-h2 {
-  text-align: center;
-  margin: -5px 0 0;
-  font-weight: normal;
-  padding-top: 50px;
-  font-size: 1em;
-}
-
-h3 {
-  margin: 0 0 1em 0;
-  text-align: center;
-  font-size: 1em;
-}
-
-h4 {
-	color: black;
-	font-size: 1.1em;
-}
-
-
-.profile-photo {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-
-}
-
-
-
-/**********************************
-NAVIGATION
-***********************************/
-
-nav {
-  text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-  
-}
-
-
-nav a {
-  font-weight: 800;
-  padding: 15px 10px;
-}
-
-.main-nav li {
-  background-color: white; 
-  margin: 5px;
-}
-
-/*********************************
-Skills
-**********************************/
-
-
-ul.skills {
-  padding: 0;
-  text-align: center;
-}
-
-.skills li {
-  border-radius: 6px;
-  display: inline-block;
-  background: #93dcb4;
-  color: white;
-  padding: 5px 10px;
-  margin: 2px;
-}
-
-.skills li:nth-child(odd) {
-  background: #59b5f1;
-}
-
-
-/**********************************
-FOOTER
-***********************************/
-
-footer {
-  font-size: 0.75em;
-  text-align: center;
-  clear: both;
-  padding-top: 50px;
-  color: #ccc;
-}
-
-.footer-nav {
-	visibility: hidden;
-}
-
-hr {
-	margin: 0 5%;
-	
-}
-
-/**********************************
-COLORS
-***********************************/
-
-/* site body */
-body {
-  background-color: rgba(216, 236, 247, 1); 
-  margin-bottom: 5px;
-  
-}
-
-.wrapper {
-    background-color: white;
-    padding-bottom: 20px;
-    margin: 0;
-}
-
-/* links */
-a {
-  color: #030303;
-}
-
-/* nav link */
-nav a, nav a:visited {
-  color: #030303;
-}
-
-/* selected nav link */
-nav a.selected, nav a, aside a:hover {
-  color: #32673f;
-}
-
-
-
-
-
-
-@media (min-width: 768px){
-
-    .name {
-        display: inline-block;
-        padding: 20px 0 0 20px;
-        margin-left: 50%;
-    }
-    
-    .main-nav {
-        float:right;
-        margin-top: 0;
-
-    }
-    
-    .main-nav li {
-        display: inline-block;
-    }
-    
-    
-    
-    .profile-photo {
-        float:right;
-        
-    }
-    
-    .about {
-        
-        padding: 0 0 70px 15px;
-        margin: auto;
-        max-width: 50%;
-    }
-    
-    .header {    
-        padding-bottom: 30px;
-    }
-    
-     #gallery {
-          margin: 0;
-          padding: 0;
-          list-style: none;
-        }
-
-    
-    
-    #gallery li {
-          float: left;
-          width: 45%;
-          margin: 2.5%;
-          color: #bdc3c7;
-    }
-
-     #gallery li a p {
-          margin: 0;
-          padding: 5%;
-          font-size: 0.75em;
-          color: black;
-          
-    }
-
-    .contact-info {
-        text-align: center;
-        padding: 10px;
-    }
-    
-    h2 {
-        margin-top: 0;
-        clear: both;
-    }
-    
-    .contact-area{
-        margin: 0;
-        padding-top: 1px;
-    }
-    
-    .contact-area p {
-	    text-align: center;
-	    margin: 0 20%;
-    }
-
-	.footer-nav {
-		visibility: visible;
-		margin: -50px 2.5% 0 0;
-		
-	}
-	
-	.footer-nav li{
-		display: inline-block;
-		float: right;	
-		
-	}
-	
-	.footer-name {
-		float: left;
-		margin: -10px 0 0 5%;
-	}
-	
-	.footer-back {
-		display: none;
-	}
-}
-
-
-
-
-
-@media (min-width: 1024px){
-
+ 
+ @media (min-width: 1020px){
+         .name {
+         display: inline-block;
+         padding: 20px 0 0 20px;
+     }
+     
+     .main-nav {
+         float:right;
+         margin-top: 0;
+ 
+     }
+     
+     .main-nav li {
+         display: inline-block;
+     }
+     
+     .contact-area {
+         margin-top: 5px;
+         clear: both;
+     } 
+     
+     
       #gallery li {
-	    width: 28.3333%;
+	    width: 28%;
 	}
-	
-	  #gallery li:nth-child(4n) {
-	    clear: right;
+
+	  #gallery li:nth-child(3n) {
+	    clear: left;
 	}
+
 }	
